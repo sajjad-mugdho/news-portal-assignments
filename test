@@ -31,7 +31,7 @@
                 <div class="dropdown dropdown-end">
                     <label tabindex="0" class="btn btn-ghost btn-circle avatar">
                         <div class="w-10 rounded-full">
-                            <img src="image/dream-big.png" />
+                            <img src="https://placeimg.com/80/80/people" />
                         </div>
                     </label>
                     <ul tabindex="0"
@@ -159,12 +159,12 @@
             </div>
         </div>
         <div>
-            <p>Copyright © 2022 - Sajjad Mugdho</p>
+            <p>Copyright © 2022 - Md Masud Rana</p>
         </div>
     </footer>
 
 
-    <script src="app.js"></script>
+    <script src="js/index.js"></script>
 </body>
 
 </html>
