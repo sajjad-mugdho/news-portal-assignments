@@ -71,6 +71,7 @@ const displayCard = (cards) => {
             return -1;
         }
     })
+
     // console.log(sortFind);
 
 
