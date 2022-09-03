@@ -10,7 +10,7 @@ const loadCategory = async () => {
         console.log(error);
     }
 }
-
+// display category 
 
 const displayCategory = async (data) => {
     const categoryContainer = document.getElementById('catagory-container');
@@ -96,7 +96,7 @@ const displayCard = (cards) => {
         const speenerContainer = document.getElementById('speener-container');
         speenerContainer.classList.add('hidden');
 
-
+        // card section start 
 
         cardSectionDiv.classList.add("card", "lg:card-side", "bg-base-100", "shadow-xl", "lg:p-4", "mb-5", "w-11/12", "lg:w-full", "mx-auto")
         cardSectionDiv.innerHTML = `
