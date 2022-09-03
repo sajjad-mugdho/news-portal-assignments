@@ -36,6 +36,38 @@ const loadCard = async (id) => {
     } catch (error) {
         console.log(error);
     }
+};
+
+const displayCard = (cards) => {
+    const cardSection = document.getElementById('card-section');
+    cardSection.textContent = ""
+    // founded msg 
+    const foundedMessege = document.getElementById('founded-msg');
+    foundedMessege.classList.remove('hidden')
+
+    // founded-text
+    const fountText = document.getElementById('founded-text');
+    fountText.innerText = cards.length;
+
+
+    // spneer
+
+    const speenerContainer = document.getElementById('speener-container');
+    speenerContainer.classList.remove('hidden');
+    // console.log(speenerContainer);
+
+    // sort 
+
+    const sortFind = cards.sort((x, y) => {
+        if (x.total_view < y.total_view) {
+            return 1;
+        }
+        else {
+            return -1;
+        }
+    })
+    // console.log(sortFind);
+
 }
 
 
